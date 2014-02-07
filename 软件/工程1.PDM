@@ -1,0 +1,350 @@
+[Root]
+Most Recent Package=标准安装软件包 1
+
+
+[Package|标准安装软件包 1|工程1]
+Icon1=工程1.exe
+Title1=工程1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=X:\编程\数据库管理系统\软件\包
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|标准安装软件包 1|Files Added]
+x:\编程\数据库管理系统\软件\date\工作人员数据.xls=
+x:\编程\数据库管理系统\软件\date\接入间数据.xls=
+x:\编程\数据库管理系统\软件\date\用户数据.xls=
+x:\编程\数据库管理系统\软件\修改表\修改表模板.xls=
+x:\编程\数据库管理系统\软件\说明书.doc=
+x:\编程\数据库管理系统\软件\date\tmp.xls=
+
+[Package|标准安装软件包 1|Files Removed]
+
+[Package|标准安装软件包 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\vb6chs.dll=Yes
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=Yes
+D:\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+X:\编程\数据库管理系统\软件\date\工作人员数据.xls=Yes
+X:\编程\数据库管理系统\软件\date\接入间数据.xls=Yes
+X:\编程\数据库管理系统\软件\date\用户数据.xls=Yes
+X:\编程\数据库管理系统\软件\修改表\修改表模板.xls=Yes
+X:\编程\数据库管理系统\软件\说明书.doc=Yes
+X:\编程\数据库管理系统\软件\数据库管理系统.exe=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+X:\编程\数据库管理系统\软件\date\tmp.xls=Yes
+C:\WINDOWS\system32\MSEXCL35.DLL=Yes
+C:\WINDOWS\system32\MSEXCH35.DLL=Yes
+C:\WINDOWS\system32\MSLTUS35.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHS.DLL=Yes
+C:\WINDOWS\system32\MSPDOX35.DLL=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+X:\编程\数据库管理系统\软件\工程1.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vb6chs.dll=$(WinSysPath)
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+X:\编程\数据库管理系统\软件\date\工作人员数据.xls=$(AppPath)\date
+X:\编程\数据库管理系统\软件\date\接入间数据.xls=$(AppPath)\date
+X:\编程\数据库管理系统\软件\date\用户数据.xls=$(AppPath)\date
+X:\编程\数据库管理系统\软件\修改表\修改表模板.xls=$(AppPath)\修改表
+X:\编程\数据库管理系统\软件\说明书.doc=$(AppPath)
+X:\编程\数据库管理系统\软件\数据库管理系统.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+X:\编程\数据库管理系统\软件\date\tmp.xls=$(AppPath)\date
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDO20CHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+X:\编程\数据库管理系统\软件\工程1.exe=No
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=No
+X:\编程\数据库管理系统\软件\date\工作人员数据.xls=No
+X:\编程\数据库管理系统\软件\date\接入间数据.xls=No
+X:\编程\数据库管理系统\软件\date\用户数据.xls=No
+X:\编程\数据库管理系统\软件\修改表\修改表模板.xls=No
+X:\编程\数据库管理系统\软件\说明书.doc=No
+X:\编程\数据库管理系统\软件\数据库管理系统.exe=No
+X:\编程\数据库管理系统\软件\date\tmp.xls=No
+D:\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=数据库管理系统
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=X:\编程\数据库管理系统\软件\包
+ProjectFolder=X:\编程\数据库管理系统\软件
+ServerSideCab=
+File1=X:\编程\数据库管理系统\软件\包\setup.exe
+File2=X:\编程\数据库管理系统\软件\包\Setup.Lst
+File3=X:\编程\数据库管理系统\软件\包\数据库管理系统.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=数据库管理系统
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|数据库管理系统]
+Icon1=数据库管理系统.exe
+Title1=数据库管理系统
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|展开文件 1|工程1]
+Icon1=工程1.exe
+Title1=工程1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|展开文件 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=X:\编程\数据库管理系统\软件\包
+
+[Package|展开文件 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|展开文件 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|展开文件 1|Files Found]
+
+[Package|展开文件 1|Files Released]
+
+[Package|展开文件 1|Missing Dependency Information]
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+
+[Package|展开文件 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|展开文件 1|Files Added]
+x:\编程\数据库管理系统\软件\date\工作人员数据.xls=
+x:\编程\数据库管理系统\软件\date\接入间数据.xls=
+x:\编程\数据库管理系统\软件\date\用户数据.xls=
+x:\编程\数据库管理系统\软件\修改表\修改表模板.xls=
+x:\编程\数据库管理系统\软件\说明书.doc=
+x:\编程\数据库管理系统\软件\date\tmp.xls=
+
+[Package|展开文件 1|Files Removed]
+
+[Package|展开文件 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\vb6chs.dll=Yes
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=Yes
+X:\编程\数据库管理系统\软件\date\工作人员数据.xls=Yes
+X:\编程\数据库管理系统\软件\date\接入间数据.xls=Yes
+X:\编程\数据库管理系统\软件\date\用户数据.xls=Yes
+X:\编程\数据库管理系统\软件\修改表\修改表模板.xls=Yes
+X:\编程\数据库管理系统\软件\说明书.doc=Yes
+X:\编程\数据库管理系统\软件\数据库管理系统.exe=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+X:\编程\数据库管理系统\软件\date\tmp.xls=Yes
+C:\WINDOWS\system32\MSEXCL35.DLL=Yes
+C:\WINDOWS\system32\MSEXCH35.DLL=Yes
+C:\WINDOWS\system32\MSLTUS35.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHS.DLL=Yes
+C:\WINDOWS\system32\MSPDOX35.DLL=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\odbc32.dll=Yes
+
+[Package|展开文件 1|Configure Registry Files]
+Applicable=No
+
+[Package|展开文件 1|Configure Remote Servers]
+Applicable=No
+
+[Package|展开文件 1|Install Locations]
+X:\编程\数据库管理系统\软件\工程1.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vb6chs.dll=$(WinSysPath)
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+X:\编程\数据库管理系统\软件\date\工作人员数据.xls=$(AppPath)\date
+X:\编程\数据库管理系统\软件\date\接入间数据.xls=$(AppPath)\date
+X:\编程\数据库管理系统\软件\date\用户数据.xls=$(AppPath)\date
+X:\编程\数据库管理系统\软件\修改表\修改表模板.xls=$(AppPath)\修改表
+X:\编程\数据库管理系统\软件\说明书.doc=$(AppPath)
+X:\编程\数据库管理系统\软件\数据库管理系统.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+X:\编程\数据库管理系统\软件\date\tmp.xls=$(AppPath)\date
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDO20CHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+
+[Package|展开文件 1|Configure Shared Files]
+Applicable=Yes
+X:\编程\数据库管理系统\软件\工程1.exe=No
+E:\Program Files\Microsoft Office\Office14\EXCEL.EXE=No
+X:\编程\数据库管理系统\软件\date\工作人员数据.xls=No
+X:\编程\数据库管理系统\软件\date\接入间数据.xls=No
+X:\编程\数据库管理系统\软件\date\用户数据.xls=No
+X:\编程\数据库管理系统\软件\修改表\修改表模板.xls=No
+X:\编程\数据库管理系统\软件\说明书.doc=No
+X:\编程\数据库管理系统\软件\数据库管理系统.exe=No
+X:\编程\数据库管理系统\软件\date\tmp.xls=No
+D:\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|展开文件 1|Distribution]
+Type=single
+Size=
+Title=数据库管理系统
+
+[Package|展开文件 1|IconGroups]
+Group0=数据库管理系统
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|展开文件 1|数据库管理系统]
+Icon1=数据库管理系统.exe
+Title1=数据库管理系统
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|展开文件 1|DepFile]
+DepCabFile=数据库管理系统.CAB
+DepCabRun=数据库管理系统.INF
+
+[Package|展开文件 1|Package]
+PackageFolder=X:\编程\数据库管理系统\软件\包
+ProjectFolder=X:\编程\数据库管理系统\软件
+ServerSideCab=
+File1=X:\编程\数据库管理系统\软件\包\数据库管理系统.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

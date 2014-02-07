@@ -1,0 +1,52 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="数据库管理系统.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"数据库管理系统.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"vb6chs.dll"
+"EXCEL.EXE"
+"DAO350.DLL"
+"MSJET35.DLL"
+"MSJTER35.DLL"
+"MSJINT35.DLL"
+"vbajet32.dll"
+"expsrv.dll"
+"MSRD2X35.DLL"
+"MSREPL35.DLL"
+"MSVCRT40.DLL"
+"VB5DB.DLL"
+"MSXBSE35.DLL"
+"MSEXCL35.DLL"
+"MSEXCH35.DLL"
+"MSTEXT35.DLL"
+"MSLTUS35.DLL"
+"MSPDOX35.DLL"
+"MSRDO20.DLL"
+"RDOCURS.DLL"
+"RDO20CHS.DLL"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"工作人员数据.xls"
+"接入间数据.xls"
+"用户数据.xls"
+"修改表模板.xls"
+"说明书.doc"
+"tmp.xls"
